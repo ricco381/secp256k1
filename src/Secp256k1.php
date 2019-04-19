@@ -5,12 +5,12 @@ namespace kornrunner;
 use InvalidArgumentException;
 use kornrunner\Serializer\HexPrivateKeySerializer;
 use kornrunner\Signature\Signer;
-use Mdanter\Ecc\Crypto\Signature\SignatureInterface;
-use Mdanter\Ecc\Curves\CurveFactory;
-use Mdanter\Ecc\Curves\SecgCurve;
-use Mdanter\Ecc\EccFactory;
-use Mdanter\Ecc\Primitives\PointInterface;
-use Mdanter\Ecc\Random\RandomGeneratorFactory;
+use ricco381\Ecc\Crypto\Signature\SignatureInterface;
+use ricco381\Ecc\Curves\CurveFactory;
+use ricco381\Ecc\Curves\SecgCurve;
+use ricco381\Ecc\EccFactory;
+use ricco381\Ecc\Primitives\PointInterface;
+use ricco381\Ecc\Random\RandomGeneratorFactory;
 
 class Secp256k1
 {

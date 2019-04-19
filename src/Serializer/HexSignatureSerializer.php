@@ -3,8 +3,8 @@
 namespace kornrunner\Serializer;
 
 use InvalidArgumentException;
-use Mdanter\Ecc\Crypto\Signature\Signature;
-use Mdanter\Ecc\Crypto\Signature\SignatureInterface;
+use ricco381\Ecc\Crypto\Signature\Signature;
+use ricco381\Ecc\Crypto\Signature\SignatureInterface;
 
 class HexSignatureSerializer
 {

@@ -5,7 +5,7 @@ namespace kornrunner\Signature;
 use GMP;
 use kornrunner\Serializer\HexSignatureSerializer;
 use kornrunner\Signature\SignatureInterface;
-use Mdanter\Ecc\Crypto\Signature\Signature as EccSignature;
+use ricco381\Ecc\Crypto\Signature\Signature as EccSignature;
 
 class Signature extends EccSignature implements SignatureInterface
 {

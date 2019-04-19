@@ -2,9 +2,9 @@
 
 namespace kornrunner\Serializer;
 
-use Mdanter\Ecc\Crypto\Key\PrivateKeyInterface;
-use Mdanter\Ecc\Primitives\Point;
-use Mdanter\Ecc\Serializer\PrivateKey\PrivateKeySerializerInterface;
+use ricco381\Ecc\Crypto\Key\PrivateKeyInterface;
+use ricco381\Ecc\Primitives\Point;
+use ricco381\Ecc\Serializer\PrivateKey\PrivateKeySerializerInterface;
 
 class HexPrivateKeySerializer implements PrivateKeySerializerInterface
 {

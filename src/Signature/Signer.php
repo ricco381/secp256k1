@@ -3,11 +3,11 @@
 namespace kornrunner\Signature;
 
 use GMP;
-use Mdanter\Ecc\Crypto\Key\PrivateKeyInterface;
-use Mdanter\Ecc\Crypto\Key\PublicKeyInterface;
-use Mdanter\Ecc\Crypto\Signature\SignatureInterface;
-use Mdanter\Ecc\Crypto\Signature\Signer as EccSigner;
-use Mdanter\Ecc\Math\GmpMathInterface;
+use ricco381\Ecc\Crypto\Key\PrivateKeyInterface;
+use ricco381\Ecc\Crypto\Key\PublicKeyInterface;
+use ricco381\Ecc\Crypto\Signature\SignatureInterface;
+use ricco381\Ecc\Crypto\Signature\Signer as EccSigner;
+use ricco381\Ecc\Math\GmpMathInterface;
 
 class Signer
 {

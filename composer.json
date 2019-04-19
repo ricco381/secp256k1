@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=7.1",
-        'ricco381/ecc": "0.2",
+        "ricco381/ecc": "0.2",
         "ext-gmp": "*"
     },
     "require-dev": {
